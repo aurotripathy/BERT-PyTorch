@@ -11,7 +11,8 @@ python main.py build-dictionary data/example/train.txt
 python main.py pretrain --train_path data/example/train.txt --val_path data/example/val.txt --checkpoint_dir checkpoints
 ```
 
-TODO smaller dataset
+### TODO 
+Use a managable dataset
 
 https://d2l.ai/chapter_natural-language-processing-pretraining/bert-dataset.html
 
