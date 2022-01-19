@@ -1,3 +1,14 @@
+# Bringing this repo upto-date
+
+The commands we need...
+python main.py build-dictionary data/example/train.txt
+
+python main.py pretrain --train_path data/example/train.txt --val_path data/example/val.txt --checkpoint_dir model.pth
+
+TODO smaller dataset
+
+https://d2l.ai/chapter_natural-language-processing-pretraining/bert-dataset.html
+
 # BERT-pytorch
 PyTorch implementation of BERT in "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding" (https://arxiv.org/abs/1810.04805)
 
