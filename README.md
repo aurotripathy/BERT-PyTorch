@@ -5,7 +5,7 @@ The commands we need...
 ```
 python main.py build-dictionary data/example/train.txt
 
-python main.py pretrain --train_path data/example/train.txt --val_path data/example/val.txt --checkpoint_dir model.pth
+python main.py pretrain --train_path data/example/train.txt --val_path data/example/val.txt --checkpoint_dir checkpoints
 ```
 
 TODO smaller dataset
