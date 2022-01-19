@@ -1,10 +1,13 @@
 # Bringing this repo upto-date
 
-The commands we need...
+### Build dictionary
 
 ```
 python main.py build-dictionary data/example/train.txt
+```
 
+### Pre-train
+```
 python main.py pretrain --train_path data/example/train.txt --val_path data/example/val.txt --checkpoint_dir checkpoints
 ```
 
